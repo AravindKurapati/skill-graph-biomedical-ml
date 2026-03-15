@@ -56,7 +56,7 @@ beyond cloning.
 ## Projects this graph covers
 
 - [AlphaFold Prediction](https://github.com/AravindKurapati/alphafold-prediction)
-  — Protein structure prediction pipeline using AlphaFold2 with downstream structure-based analysis.
+   Protein structure prediction pipeline using AlphaFold2 with downstream structure-based analysis.
 
 - [TCGA Lung Cancer Classification](https://github.com/AravindKurapati/TCGA-Lung-Inception-NYU-HPC)
    InceptionV3 classifier trained on Barlow Twins SSL embeddings from TCGA LUAD/LUSC whole-slide images,
@@ -74,7 +74,7 @@ beyond cloning.
   - ML pipeline for classifying lung cancer malignancy from clinical and imaging features.
 
 - [Parkinson's Hyperparameter Tuning](https://github.com/AravindKurapati/Hyperparamter-Tuning-Parkinsons)
-  - Systematic hyperparameter optimization for detecting Parkinson's disease from biomedical voice measurements.
+  Systematic hyperparameter optimization for detecting Parkinson's disease from biomedical voice measurements.
 
 - [Healthcare Fraud Detection](https://github.com/AravindKurapati/Fraud-Detection-Medical)
    Fraud detection on medical claims data handling extreme class imbalance with ensemble methods.
