@@ -4,9 +4,13 @@ Knowledge graph covering ML approaches across medical imaging, genomics,
 and clinical data. Each node links to related concepts. Follow wikilinks
 relevant to the current task.
 
+
 ## Domains
 
 - [[medical-imaging]] - CNNs for chest X-ray, lung cancer detection, preprocessing
+  - [[whole-slide-imaging]] - patch extraction, SSL pretraining, MIL aggregation
+  - [[follicular-lymphoma]] - FL subtype prediction from H&E WSIs
+  - [[tcga-lung-classification]] - LUAD vs LUSC classification on NYU HPC
 - [[genomics]] - DNA sequencing classification, protein structure with AlphaFold
 - [[clinical-data]] - tabular data, Parkinson's, healthcare fraud detection
 
