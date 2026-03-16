@@ -17,6 +17,9 @@ skill-graph-biomedical-ml/
   imaging/
     chest-xray.md                 <- CNN classification, preprocessing
     lung-cancer.md                <- CT scan analysis, 3D vs 2D tradeoffs
+    whole-slide-imaging.md        <- patch extraction, SSL pretraining, MIL
+    follicular-lymphoma.md        <- FL subtype prediction from H&E WSIs
+    tcga-lung-classification.md   <- LUAD vs LUSC classification on NYU HPC
   genomics/
     dna-sequencing.md             <- k-mer features, DNABERT, sequence ML
     alphafold.md                  <- structure prediction, pLDDT, GNNs
@@ -40,7 +43,7 @@ Each node links to related nodes with wikilinks. Example from
 > for handling strategies before training.
 
 Claude Code follows these links and loads only what is relevant for the
-current task. not the whole graph at once.
+current task, not the whole graph at once.
 
 ## Visualizing the graph
 
@@ -71,10 +74,10 @@ beyond cloning.
    CNN-based classifier detecting pneumonia and COVID-19 from chest X-ray images using deep learning and transfer learning.
 
 - [Lung Cancer Classification](https://github.com/AravindKurapati/LungCancer_Classification_Prediction)
-  - ML pipeline for classifying lung cancer malignancy from clinical and imaging features.
+   ML pipeline for classifying lung cancer malignancy from clinical and imaging features.
 
 - [Parkinson's Hyperparameter Tuning](https://github.com/AravindKurapati/Hyperparamter-Tuning-Parkinsons)
-  Systematic hyperparameter optimization for detecting Parkinson's disease from biomedical voice measurements.
+   Systematic hyperparameter optimization for detecting Parkinson's disease from biomedical voice measurements.
 
 - [Healthcare Fraud Detection](https://github.com/AravindKurapati/Fraud-Detection-Medical)
    Fraud detection on medical claims data handling extreme class imbalance with ensemble methods.
@@ -82,3 +85,22 @@ beyond cloning.
 - [DNA Sequencing ML](https://github.com/AravindKurapati/DNA-Sequencing-ML)
    Classification of DNA sequences using k-mer feature extraction and machine learning.
 
+## Learning progression
+
+This repo was built manually to understand skill graphs from first principles
+before using tooling to generate them properly.
+
+Every node was written by hand, every wikilink placed deliberately. The goal
+was to understand what a skill graph actually is before automating its creation.
+
+The next step was running [arscontexta](https://github.com/agenticnotetaking/arscontexta)
+to generate a full living knowledge system derived from conversation rather than
+manual authoring. That system adds automated pipelines, session hooks, claim
+extraction from papers, and cross-project connection surfacing that this static
+graph cannot do.
+
+The arscontexta vault covering the same research domain is here:
+[research-knowledge-vault](https://github.com/AravindKurapati/research-knowledge-vault)
+
+Static graph you write once -> Living system that grows as you research.
+That is the progression this repo represents the first half of.
